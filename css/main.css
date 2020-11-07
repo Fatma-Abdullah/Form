@@ -636,6 +636,10 @@ body {
 }
 }
 
+.titleBold {
+  color: #ffffff;
+  text-shadow: 0em 0em 5em #920c5c, 0em 0em 3em #920c5c, 0em 0em 2em #920c5c, 1px 1px 5px #920c5c, 0px 0px 10px #920c5c, 0px 0px 25px #920c5c, 0px 0px 45px #920c5c, 2px 1px 0px white, -1px 0px 2px rgb(0 0 0 / 50%);
+}
 @media (max-width: 1000px) and (min-width: 577px) {
   .wrap-contact100 {
     padding: 15px;
@@ -673,4 +677,20 @@ body {
     display: block;
     font-size: 40px;
   }
+}
+
+@media only screen and (max-width: 480px) {
+  select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+
+ select {
+     background: -webkit-linear-gradient(white, #666);
+     border: 1px solid #ccc;
+     border-radius: 5px;
+     color: white;
+     -webkit-appearance: none;
+ }
 }
