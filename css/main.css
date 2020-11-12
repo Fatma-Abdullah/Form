@@ -688,7 +688,7 @@ body {
 appearance: none;
   -webkit-padding-start: 0 50px 0 30px ;
 -moz-border-radius: 3px;
-background: url(http://dropdown/arrow/url/) no-repeat;
+/* background: url(http://dropdown/arrow/url/) no-repeat; */
 background-position: right center;
 /* background-color: #CCCCCC; */
 /* color: #000000; */
