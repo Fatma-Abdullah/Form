@@ -683,16 +683,18 @@ body {
     margin: 1em;
   }
   select{
+    /* safari iphone */
     -webkit-appearance: none; 
--moz-appearance: none;
-appearance: none;
-  -webkit-padding-start: 0 50px 0 30px ;
--moz-border-radius: 3px;
-/* background: url(http://dropdown/arrow/url/) no-repeat; */
-background-position: right center;
-/* background-color: #CCCCCC; */
-/* color: #000000; */
-/* border: 1px solid #000000; */
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-padding-start: 0 50px 0 30px ;
+    -moz-border-radius: 3px;
+    /* background: url(http://dropdown/arrow/url/) no-repeat; */
+    background-position: right center;
+    /* background-color: #CCCCCC; */
+    /* color: #000000; */
+    /* border: 1px solid #000000; */
+    letter-spacing: 0;
 
   }
 }
