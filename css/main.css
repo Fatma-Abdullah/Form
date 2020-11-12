@@ -694,7 +694,10 @@ body {
     /* background-color: #CCCCCC; */
     /* color: #000000; */
     /* border: 1px solid #000000; */
-    letter-spacing: 0;
+
+  }
+  body{
+    letter-spacing: 0 !important;
 
   }
 }
