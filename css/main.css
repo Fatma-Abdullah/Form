@@ -682,11 +682,10 @@ body {
     height: 100px;
     margin: 1em;
   }
-  select.input100,
-option.input100 {
-  height: 50px;
-  border-radius: 25px;
-  padding: 0 50px 0 30px;
+  select.input100, option.input100 {
+    height: 50px;
+    border-radius: 25px;
+    padding: 0 77px 0 43px;
 }
 }
 @media screen and (max-width: 2000px) and (min-width: 1001px) {
