@@ -171,7 +171,7 @@ iframe {
   text-align: left;
   padding-bottom: 36px;
 }
-input.input100 , select {
+input.input100 , select.input100 {
   height: 50px;
   border-radius: 25px;
   padding: 0 50px 0 30px;
@@ -682,11 +682,19 @@ body {
     height: 100px;
     margin: 1em;
   }
-  select.input100, option.input100 {
-    height: 50px;
-    border-radius: 25px;
-    padding: 0 77px 0 43px !important;
-}
+  select{
+    -webkit-appearance: none; 
+-moz-appearance: none;
+appearance: none;
+  -webkit-padding-start: 0 50px 0 30px ;
+-moz-border-radius: 3px;
+background: url(http://dropdown/arrow/url/) no-repeat;
+background-position: right center;
+/* background-color: #CCCCCC; */
+/* color: #000000; */
+/* border: 1px solid #000000; */
+
+  }
 }
 @media screen and (max-width: 2000px) and (min-width: 1001px) {
     .contact100-pic {
